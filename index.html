@@ -7,23 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Buddy LaFluer Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css"
 </head>
 
 <body>
 
     <section class="hero is-info">
-        <div class="hero-body columns">
-            <div class="column">
+        <div class="hero-body columns is-gapless">
+            <div class="column is-one-fifth">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-64x64">
+                            <img src="./assets/images/LI-HEADSHOT.jpeg">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-one-quarter">
                 <p class="title is-1">
                     Buddy LaFluer
-                </p>
+                </p> 
             </div>
+
             <div class="column">   
                 <nav class="breadcrumb has-bullet-separator is-right is-large" aria-label="breadcrumbs">
                     <ul>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Contact Me</a></li>
+                        <li><a href="#About-Me">About Me</a></li>
+                        <li><a href="#Work">Work</a></li>
+                        <li><a href="#Contact-Me">Contact Me</a></li>
                         <li><a href="#">Resume</a></li>
                     </ul>
                 </nav>
@@ -31,9 +43,9 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="columns">
-            <div class="column is-one-third">
+    <section id="About-Me" class="section">
+        <div class="columns is-variable is-8">
+            <div id= "column-border" class="column is-one-quarter">
                 <h1 id="section" class="title is-2 is-right">About Me</h1>
             </div>
 
@@ -45,26 +57,58 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="columns">
-            <div class="column is-one-third">
+    <section id="Work" class="section">
+        <div class="columns is-variable is-8">
+            <div id= "column-border" class="column is-one-quarter">
                 <h1 id="section" class="title is-2">Work</h1>
             </div>
 
-            <div class="column columns">
-                *Insert Projects Here*
+            <div class="column">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by2">
+                            <img src="./assets/images/Hotel-Weather.jpeg"
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <a href="https://ricardokcontreras.github.io/Hotel-Weather/">Click here to view!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by2">
+                            <img src="./assets/images/Cat-Game.jpg">
+                        </figure>
+                    </div>
+                     <div class="card-content">
+                        <div class="content">
+                            <a href="https://radiant-island-77079.herokuapp.com/">Click here to view!</a>
+                        </div>
+                    </div>
+                </div> 
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="columns">
-            <div class="column is-one-third">
+    <section id="Contact-Me" class="section">
+        <div class="columns is-variable is-8">
+            <div id="column-border" class="column is-one-quarter">
                 <h1 id="section" class="title is-2">Contact Me</h1>
             </div>
 
             <div class="column">
-                *Insert Contact Info Here
+                <p>
+                    <div>Phone: 980.219.0319</div>
+                    <div>Email: buddylafluer@gmail.com</div>
+                    <div>LinkedIn: 
+                    <a href="https://www.linkedin.com/in/bernielafluer/">https://www.linkedin.com/in/bernielafluer/</a>
+                    </div>
+                </p>
             </div>
         </div>
     </section>
